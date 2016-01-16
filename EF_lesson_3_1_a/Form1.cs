@@ -23,6 +23,7 @@ namespace EF_lesson_3_1_a
 
             dataGridView1.DataSource = db.Players.Local.ToBindingList();
         }
+
         // добавление
         private void button1_Click(object sender, EventArgs e)
         {
@@ -42,6 +43,7 @@ namespace EF_lesson_3_1_a
 
             MessageBox.Show("Новый объект добавлен");
         }
+
         // редактирование
         private void button2_Click(object sender, EventArgs e)
         {
@@ -76,6 +78,7 @@ namespace EF_lesson_3_1_a
 
             }
         }
+
         // удаление
         private void button3_Click(object sender, EventArgs e)
         {
