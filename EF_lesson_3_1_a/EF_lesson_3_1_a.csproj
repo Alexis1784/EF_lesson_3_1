@@ -61,6 +61,10 @@
     <Compile Include="Migrations\201601171245326_Initial.Designer.cs">
       <DependentUpon>201601171245326_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601190621512_Teams.cs" />
+    <Compile Include="Migrations\201601190621512_Teams.Designer.cs">
+      <DependentUpon>201601190621512_Teams.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerForm.cs">
@@ -78,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201601171245326_Initial.resx">
       <DependentUpon>201601171245326_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601190621512_Teams.resx">
+      <DependentUpon>201601190621512_Teams.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlayerForm.resx">
       <DependentUpon>PlayerForm.cs</DependentUpon>
