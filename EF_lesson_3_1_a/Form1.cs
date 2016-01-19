@@ -97,5 +97,17 @@ namespace EF_lesson_3_1_a
                 MessageBox.Show("Объект удален");
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (SoccerContext db = new SoccerContext())
+            {
+                IEnumerable<Player> players = db.Players.Include(p => p.Team);
+                foreach (Player p in players)
+                {
+                    MessageBox.Show(p.Team.Name);
+                }
+            }
+        }
     }
 }

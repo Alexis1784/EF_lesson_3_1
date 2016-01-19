@@ -12,5 +12,8 @@ namespace EF_lesson_3_1_a
         public string Name { get; set; }
         public string Position { get; set; }
         public int Age { get; set; }
+
+        public int? TeamId { get; set; }
+        public Team Team { get; set; }
     }
 }

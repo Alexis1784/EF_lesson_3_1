@@ -8,5 +8,8 @@ namespace EF_lesson_3_1_a
 {
     class Team
     {
+        public int Id { get; set; }
+        public string Name { get; set; } // название команды
+        public string Coach { get; set; } // тренер
     }
 }
