@@ -14,5 +14,6 @@ namespace EF_lesson_3_1_a
         { }
 
         public DbSet<Player> Players { get; set; }
+        public DbSet<Team> Teams { get; set; }
     }
 }
