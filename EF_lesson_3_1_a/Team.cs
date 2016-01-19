@@ -8,6 +8,7 @@ namespace EF_lesson_3_1_a
 {
     class Team
     {
+        public Team() { }
         public Team (string Name)
         { this.Name = Name; }
         public int Id { get; set; }
