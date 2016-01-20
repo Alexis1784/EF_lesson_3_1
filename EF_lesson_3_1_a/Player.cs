@@ -14,6 +14,6 @@ namespace EF_lesson_3_1_a
         public int Age { get; set; }
 
         public int? TeamId { get; set; }
-        public Team Team { get; set; }
+        public virtual Team Team { get; set; }
     }
 }
